@@ -1,0 +1,32 @@
+{
+    "name": "cwc-npm-hello-function",
+    "version": "0.0.1",
+    "description": "A Just a hello package",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+      "build": "tsup",
+      "prepare": "npm run build"
+    },
+    "keywords": [
+      "cwc",
+      "hello",
+      "library"
+    ],
+    "author": "cwc <codewithcloud@gmail.com>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/cwctab/cwc-hello.git"
+    },
+    "bugs": {
+      "url": "https://github.com/cwctab/cwc-hello/issues"
+    },
+    "homepage": "https://github.com/cwctab/cwc-hello",
+    "devDependencies": {
+      "@swc/core": "^1.4.2",
+      "tsup": "^8.0.2",
+      "typescript": "^5.3.3"
+    }
+  }
