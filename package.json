@@ -18,12 +18,12 @@
     "license": "MIT",
     "repository": {
       "type": "git",
-      "url": "git://github.com/cwctab/cwc-npm-hello.git"
+      "url": "git://github.com/cwctab/cwc-npm-hello-function.git"
     },
     "bugs": {
-      "url": "https://github.com/cwctab/cwc-npm-hello/issues"
+      "url": "https://github.com/cwctab/cwc-npm-hello-function/issues"
     },
-    "homepage": "https://github.com/cwctab/cwc-npm-hello",
+    "homepage": "https://github.com/cwctab/cwc-npm-hello-function",
     "devDependencies": {
       "@swc/core": "^1.4.2",
       "tsup": "^8.0.2",
