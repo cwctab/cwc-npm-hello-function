@@ -4,9 +4,9 @@ export function SayHello({firstName, lastName, age}: SayHelloProps) {
     console.log('Hello!')
     console.log(`Your first name is: ${firstName}`)
     if (lastName) {
-        console.log(`Your last name is: ${firstName}`)
+        console.log(`Your last name is: ${lastName}`)
     }
     if (age) {
-        console.log(`Your age is: ${firstName}`)
+        console.log(`Your age is: ${age}`)
     }
 }
