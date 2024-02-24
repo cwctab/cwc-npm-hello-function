@@ -1,5 +1,8 @@
 node_modules
 /src
+.devcontainer/
+.github/
+.vscode
 .env
 .DS_Store
 
